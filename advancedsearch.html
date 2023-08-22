@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--Header-->
+        <div class="cabecalho">
+            <div class="backtogoogle">
+                <a class= "itens" href="index.html">Back to Google Search</a>
+            </div>
+            <div class="googlelogo">
+                <img src="logo2.png">
+            </div>
+        </div>
+        <!--Red advanced Search-->
+        <div class="titulo">
+            <span>Advanced Search</span>
+        </div>
+        <!--gray division-->
+        <div class= "divisao"></div>
+        <!--Find pages with and To do this in the search box-->
+        <div class="findpages">
+            <span id="um">Find pages with...</span>
+            <div id="meio"></div>
+            <b><span id="dois">To do this in the search box.</span></b>
+        </div>
+        <!--4 types of search-->
+        <form action="https://google.com/search">
+            <div class="one"> 
+                <div class="esquerda">
+                    <label class="textoesquerda">all these words: </label>
+                </div>
+                <div class="input">
+                    <input type="text" name="as_q" autofocus="autofocus" autocomplete="off">
+                </div>
+                <div class="direita">
+                    <label class="textodireita">Type the important words: <span>rat terrier tricolor</span></label>
+                </div>  
+            </div>
+
+
+            <div class="two">  
+                <div class="esquerda">
+                    <label class="textoesquerda">this exact word or phrase:</label>
+                </div>
+                <div class="input">
+                    <input type="text" name="as_epq" autocomplete="off">
+                </div>
+                <div class="direita">
+                    <label class="textodireita">Put exact words in quotes: <span>"rat terrier"</span></label>
+                </div>  
+            </div>
+
+
+            <div class="three">  
+                <div class="esquerda">
+                    <label class="textoesquerda">any of this words:</label>
+                </div>
+                <div class="input">
+                    <input type="text" name="as_oq" autocomplete="off">
+                </div>
+                <div class="direita">
+                    <label class="textodireita_">Type <span class="excecao">OR</span> between all the words you want:</label>
+                    <br>
+                    <span class="excecao">miniature OR standard</span>
+                </div>  
+            </div>
+
+
+            <div class="four">  
+                <div class="esquerda">
+                    <label class="textoesquerda">none of this words:</label>
+                </div>
+                <div class="input">
+                    <input type="text" name="as_eq" autocomplete="off">
+                </div>
+                <div class="direita">
+                    <label class="textodireita_">Put a minus sign just before words that you don't want</label>
+                    <br>
+                    <span class="excecao">-rodent, -"Jack Russel"</span>
+                </div>  
+            </div>
+
+            
+            <!--Blue button-->
+            <button id="botaoazul" type="submit">Advanced Search</button>
+        </from>
+    </body>
+</html>
